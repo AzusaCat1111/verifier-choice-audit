@@ -1,0 +1,12 @@
+# Locally import-checked on 2026-07-23 with CPython 3.11.13.
+# GPU/CUDA compatibility must be resolved for the target machine; do not assume
+# the PyTorch wheel below is portable across CUDA driver stacks.
+torch==2.9.0
+transformers==4.57.3
+accelerate==1.8.1
+safetensors==0.5.3
+ultralytics==8.4.46
+Pillow==11.2.1
+pandas==2.3.0
+numpy==2.2.6
+tqdm==4.67.1

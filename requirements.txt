@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+Pillow
+tqdm
+requests
+ultralytics
+
+# Required only for local open-VLM inference with scripts/run_local_vlm_counting.py.
+torch
+transformers
+accelerate
+safetensors

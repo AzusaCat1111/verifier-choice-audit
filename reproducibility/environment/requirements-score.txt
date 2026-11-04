@@ -1,0 +1,7 @@
+# No third-party packages are required for:
+#   scripts/evaluate_mllm_counting.py
+#   reproducibility/scripts/reproduce_open_mllm_scores.py
+#
+# Use CPython 3.11.13 for the locally validated reference environment.
+# The released scorer requires Python >=3.10 because it uses modern typing
+# syntax and zip(..., strict=True).
